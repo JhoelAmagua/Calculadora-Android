@@ -6,6 +6,7 @@ operaciones matemáticas, como son; +, -, x, ÷. Además de un botón con punto 
 Adicional se implementó 7 operaciones más, como es el elevar un número al cuadrado, elevar un número al cubo,
 la raíz cuadrada y cubita de un número, el seno, coseno y tangente. Y por último se tiene un botón para borrar toda
 la pantalla y el igual para la respuesta.
+
 ![Screenshot](interfazPrincipal.JPG)
 
 ### Funcionalidad de botones de números
@@ -40,6 +41,7 @@ Estas funciones deben esperar que el usuario presione el signo igual, despues de
 a contiuación se ejecuta y devuelve el resultado, ya que las 4 operaciones estan envueltas en un case
 que espera la función de igual.
 
+![Screenshot](funcionesPrincipales.JPG)
 
     Button sumar = (Button) findViewById(R.id.suma);
     sumar.setOnClickListener(this);
@@ -74,6 +76,9 @@ A continuación se muestra el código implementado para la función de elevar al
 case fuera del igual, esto permitirá que se ejecute la función, una vez que se presione la función. Esto se
 repite para estas 7 funcionalidades adicionales.
 
+![Screenshot](ofunciones.JPG)
+
+![Screenshot](ofunciones2.JPG)
 
     case R.id.cuadrado:
                     exp2 = true;
@@ -88,6 +93,7 @@ repite para estas 7 funcionalidades adicionales.
 Tanto para visualizar los números digitados, como los resultados obtenidos, se tiene la pantalla principal,
 la cual mostrará los resultados, aún cuando sean decimales.
 
+![Screenshot](resultado.JPG)
 
 ### Funcionalidad completa de los botones
 Toda la funcionalidad estará envuelta en un Try para evitar errores mientras se ejecuta la calculadora,
