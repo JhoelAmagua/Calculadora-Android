@@ -6,6 +6,7 @@ operaciones matemáticas, como son; +, -, x, ÷. Además de un botón con punto 
 Adicional se implementó 7 operaciones más, como es el elevar un número al cuadrado, elevar un número al cubo,
 la raíz cuadrada y cubita de un número, el seno, coseno y tangente. Y por último se tiene un botón para borrar toda
 la pantalla y el igual para la respuesta.
+![Screenshot](interfazPrincipal.JPG)
 
 ### Funcionalidad de botones de números
 Cada número debe ser declarado y configurado con el botón correspondiente.
